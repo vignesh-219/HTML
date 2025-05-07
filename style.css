@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+header button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #4caf50;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header button:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+nav {
+    background-color: #333;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Testimonials blockquote */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #4caf50;
+    padding-left: 15px;
+    color: #555;
+}
+
+/* Contact email */
+#email {
+    margin-top: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+#email {
+    margin-top: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+#gh {
+    margin-top: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+
+#ph {
+    margin-top: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+#lin {
+    margin-top: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+
+/* Contact button */
+button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+#contact a {
+    color: #4caf50;         /* Set your desired color */
+    text-decoration: none;  /* Remove underline */
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #388e3c;          /* Darker color on hover */
+    text-decoration: none; /* Optional: underline on hover */
+}
